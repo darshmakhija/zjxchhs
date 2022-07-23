@@ -1,15 +1,14 @@
 objects = [];
 status = "";
-video = "";
 
 function preload(){
-	video = createVideo('video.mp4');
-	video.hide();
+	video = createVideo('vid.mp4');
 }
 
 function setup(){
 	canvas= createCapture(480, 380);
 	canvas.center();
+	video.hide();
 }
 
 function draw(){
